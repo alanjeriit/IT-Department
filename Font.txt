@@ -1,0 +1,4 @@
+ $path = "<path to font>\<font name>.ttf"
+ $sa =  new-object -comobject shell.application
+ $Fonts =  $sa.NameSpace(0x14)
+ $Fonts.copyhere($path)

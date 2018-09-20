@@ -1,0 +1,13 @@
+
+Smithys's England Barcodes
+**************************
+
+Gender   Year   Season 	Category 	Serial No	Size		Color
+1        15     1      	01        	103   		02		790
+
+
+Deer & Dear Barcodes
+********************
+
+Gender  Year   Season 	Category 	Serial No	Size		Color
+2     	11      2    	01              106       	02            	533

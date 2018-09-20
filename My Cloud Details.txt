@@ -1,0 +1,9 @@
+My Cloud Details
+***************
+ID-admin
+
+PWD---Pa55w0rd
+
+
+ID-it
+PWD-Pa55w0rd

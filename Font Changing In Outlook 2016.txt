@@ -1,0 +1,123 @@
+Change the font size used in the message list
+Outlook 2016 allows you to customize the font used to display the sender's name, subject, date received, and size of each message in your message list. Maybe you want to just change the size to make the font bigger or smaller, or change the font to one you like better.
+
+To change the font settings for your message list, open Outlook and click on the View tab.
+
+Click the View Settings button in the "Current View" section of the View tab.
+
+On the "Advanced View Settings" dialog box, click Conditional Formatting button.
+
+On the "Conditional Formatting" dialog box, click Add button to add a new rule.
+
+Changing font size
+
+Enter a name for the new rule -- such as "Message List Font Size" -- in the 'Name' edit box and then click Font button.
+
+Changing font size
+
+Change the Font, Font style, and Size, and select other settings such as Effects and Color, as desired. Click OK when you have made your changes.
+
+Because we are applying the same font to all parts of the message list (sender's name, subject, date received, and size of each message), we are not specifying a condition. A dialog box displays, warning you of that fact. Click Yes.
+
+The font for all parts of each message in the message list (except for the excerpt of the message text) is changed to the font and size (and other font settings) you selected.
+
+You can delete the rule you created to go back to the default settings, or you can deselect it in the list of Rules for this view on the Conditional Formatting dialog box.
+
+Changing font size
+
+Top of Page
+
+Enlarge font size in the Reading Pane
+Using a high resolution has the benefit of a sharper display which is more relaxed for your eyes. The downside of this is that your font might become really small and hard to read which is anything but relaxed for your eyes.
+
+There are several ways to enlarge the font in the Reading Pane in Outlook;
+
+Zoom in on the message
+You can use CTRL+Mouse Scroll in the Reading Pane to zoom in and out per message. Depending on your mouse/scroll sensitivity you might need to scroll quite a bit before the font size will change.
+
+In Outlook 2013 and Outlook 2016, you can also zoom via the zoom slider in the bottom right corner.
+
+ZoomSlider
+
+Note: The zooming factor set via this slider or by scrolling is not persistent. To set a default zooming level, you can use VBA to set this setting. Important: Using this feature is not supported by Office 365 support team.
+
+Customize the font size for Plain Text messages
+For Plain Text you can modify the display font via
+
+Outlook 2013 and Outlook 2016: File-> Options --> section Mail --> button Stationery and Fonts.
+Stationery and Fonts
+Convert HTML messages to Plain Text
+Another way to go for HTML formatted emails would be to set the option to read all mail in Plain Text. Together with your modified Plain Text font settings, the larger font size will always apply. Via the Infobar, which will display on top of a converted message, you can easily change it back to HTML format when needed (like for some special layout or newsletters).
+
+To configure Outlook to display all the email in Plain Text by default;
+
+Outlook 2013 and Outlook 2016 
+File-> Options-> section Trust Center-> button Trust Center Settings --> E-mail Security --> Read all standard mail in plain text 
+
+Trust Center
+Read All Standard Mail
+
+Changing the DPI settings in Windows
+If font sizes is a general issue throughout Outlook, Windows and other applications, you might want to consider customizing the DPI settings in Windows instead. To do this;
+
+Windows 7 and Windows 8
+
+Right click on an empty spot on your Desktop and choose Screen resolution.
+ScreenResolution
+
+Click on the blue text link: Make text and other items larger or smaller.
+Here you can directly set your DPI settings to 125%. 
+To set a custom DPI value:
+Windows 7
+Use the "Set custom text size (DPI)" link in the Task Pane on the left.
+Windows 8 and Windows 8.1
+Use the "Custom sizing options" text link below the presets.
+Windows 8.1 with multiple monitors
+Select the option "Let me choose one scaling level for all my displays".
+In the new dialog that pops up you can directly choose a predefined value to make the fonts bigger.You can also type any percentage you like.
+Top of Page
+
+Redefine what marks an email as already "read"
+Reading Pane
+Outlook colors unread emails differently from messages you've already read. However, it's all too easy for an email to be marked as read when you've barely given it a passing glance, which can make you overlook something important.
+
+To prevent this, select File > Options > Mail, and then click the Reading Pane button. Check the "Mark items as read when viewed in the Reading Pane" checkbox. Adjust the number of seconds you want the message to appear in the Reading Pane before Outlook marks it as read. The default is 5 seconds. Let's say you set it to 30 seconds.
+
+After that, while you preview messages in the Reading Pane, only the emails that appear there longer than 30 seconds will be marked automatically as read.
+
+Top of Page
+
+Write your own rules for how messages appear
+conditional formatting
+Outlook 2016 has a new way of indicating unread messages. There's a blue bar to the left of the message in your inbox, and the message header also appears blue.
+
+This blue is applied using conditional formatting. However, you can change both the color and font. Better still, you can write your own rules and format your emails using colors of your choice.
+
+You can assign a certain color to emails based upon who sent them, or upon which words appear in the subject line. To do this, choose View > View Settings > Conditional Formatting.  You will see the Unread Messages rule and the blue color. Here you can change the font or color as you wish.
+
+You can also click Add to add a new rule. Start by typing a name for the rule in the Name box. Then click Font and choose a font and font color to apply to the email header. Finally, click the Condition button. When the Filter dialog opens, select the options that describe which types of emails will be formatted with your new settings. Click OK three times to save your settings.
+
+Top of Page
+
+Reinstate the to-do bar
+To Do Bar
+Outlook 2016 disables the To-Do bar by default, but it's easy to bring back. Click the View tab, select To-Do Bar, and from the dropdown list select which items should appear on the To-Do bar. The options are to turn the To-Do Bar Off (the default) or for it to display a combination of Tasks, People and Calendar. The order in which you select these options determines the order they appear in the To-Do Bar. For example, Task, selected first, is at the top. The second item, People, appears below that and the third, Calendar, appears at the bottom of the bar.
+
+However, the To-Do bar no longer functions as it did in earlier versions of Outlook. Regardless of how wide the bar is, you only see a one calendar month. In addition, if you don't have appointments scheduled for today, then no appointments show even if you have some scheduled tomorrow.
+
+Top of Page
+
+Assign a category to new messages
+You may want to have your email messages automatically color categorized as they arrive into your Inbox. This can be easily accomplished by setting an Inbox Rule.
+
+Open Outlook.
+On the top ribbon, select the Home tab. In the "Move" subsection, click Rules.
+Click Manage Rules & Alerts. This will open a new window.
+Click New Rule...
+Under "Start from a blank rule", select Apply rule on messages I receive, then click Next.
+The next condition(s) you choose is up to you, this is the condition(s) that the color category will be applied to.
+Once you are done selecting a condition(s), click Next.
+Now we will select an action for the condition(s). Check the box next to "assign it to the category category".
+We still need to select a color category, so click the underlined 'category' under "Step 2: Edit the rule description (click an underlined value)", and select a color.
+Click Next to add any exceptions to this rule, and click Next again to name the rule.
+If all the options on the rule look satisfactory, click Finish to activate the rule.
